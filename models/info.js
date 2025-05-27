@@ -6,7 +6,14 @@ const WalletSchema = new mongoose.Schema({
 
 wallet:{
     type:String,
-    required:[true],
+    
+    trim:true,
+    
+
+},
+address:{
+    type:String,
+    
     trim:true,
     
 
