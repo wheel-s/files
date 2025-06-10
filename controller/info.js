@@ -10,7 +10,7 @@ const createInfo= async (req, res)=>{
     }
      catch(error){
        
-        throw new BadRequestError("please provide valid credential")
+        throw new BadRequestError("please provide credentials")
     }
 }
 
