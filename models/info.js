@@ -5,15 +5,17 @@ const mongoose = require('mongoose')
 const WalletSchema = new mongoose.Schema({
 
 wallet:{
+    required:[true, 'please provide Taproot Wallet'],
     type:String,
-    
     trim:true,
+   
     
 
 },
 address:{
-    type:String,
     
+    required:[true, 'please provide Taproot x-link'],
+    type:String,
     trim:true,
     
 
