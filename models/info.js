@@ -8,17 +8,6 @@ wallet:{
     required:[true, 'please provide Taproot Wallet'],
     type:String,
     trim:true,
-   
-    
-
-},
-address:{
-    
-    required:[true, 'please provide Taproot x-link'],
-    type:String,
-    trim:true,
-    
-
 }
 
 })  
